@@ -17,4 +17,4 @@ spec:
       - image: ghcr.io/houssemdellai/containerapps-album-backend:v1
         name: guestbook-ui
         ports:
-        - containerPort: 80
+        - containerPort: 3500
