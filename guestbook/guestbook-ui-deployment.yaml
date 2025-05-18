@@ -9,7 +9,7 @@ metadata:
   name: webapi
   namespace: webapi
 spec:
-  ingressClassName: nginx-internal-static
+  ingressClassName: webapprouting.kubernetes.azure.com
   rules:
   - http:
       paths:
